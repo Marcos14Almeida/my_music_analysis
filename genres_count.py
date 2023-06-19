@@ -20,12 +20,19 @@ def add_band(dict, column_name, n_songs):
 # =============================================================================
 
 
-def analyse_genre():
+def analyse_genre(save_df_path):
+
+    print()
+    print("=" * 50)
+    print("Analyse genres...")
+    print()
+
     # Read the CSV file
-    df = pd.read_csv('datasets/band_genres.csv')
+    df = pd.read_csv(save_df_path + '/band_genres.csv')
     df['Artist'] = df['Artist'].apply(str.title)
 
     # Display the DataFrame
+    print("\nReceived dataset:")
     print(df)
 
     genres_count = {}
@@ -43,15 +50,15 @@ def analyse_genre():
     # Sort the dictionary by values in ascending order
     genres_count = dict(sorted(genres_count.items(), key=lambda x: x[1]))
 
-    # Print the top 10 items
-    print(genres_count)
+    # Print
+    print("\nFinal Dictionary counting genres:")
 
     # Convert the dictionary to a DataFrame
     df = pd.DataFrame(list(genres_count.items()), columns=['Genre', 'Count'])
+    print(df)
 
     # Save the DataFrame to a CSV file
-    df.to_csv('datasets/genres.csv', index=False)
+    save_df_path += '/genres.csv'
+    df.to_csv(save_df_path, index=False)
+    print(f"\nDataFrame saved to {save_df_path}")
 # =============================================================================
-
-
-analyse_genre()

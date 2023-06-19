@@ -86,7 +86,10 @@ def rename_system_files():
 
 def fill_band_df(bands_dict, bands_name_list):
     max_columns = 0
+    i = 1
     for band_name in bands_name_list:
+        print(f"band {i}/{len(bands_name_list)}")
+        i += 1
         genres = get_band_genres(band_name)
         bands_dict[band_name]["genres"] = genres
         if len(genres) > max_columns:

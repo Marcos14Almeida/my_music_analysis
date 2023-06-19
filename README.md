@@ -15,11 +15,20 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 
 4- I count the number of appearances of each genre. File: `genres_count.py`.
 
-5- I create a .csv file to be used in Gephi. In Gephi I generate a visual map of the bands I listen to and their respective genres, saved in a .pdf. File: `to_gephi.py`. PDF: [Gephi PDF](https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/bands_graph_map.pdf)
+5- [[Gephi PDF](https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/bands_graph_map.pdf)] I create a .csv file to be used in Gephi. In Gephi I generate a visual map of the bands I listen to and their respective genres, saved in a .pdf. File: `to_gephi.py`. 
 
-6- I do a final exploratory analysis of the data using Tableau. [Tableau Link](https://public.tableau.com/app/profile/marcos.p4585/viz/MyMusics/Painel1?publish=yes)
+
+
+6- [[Tableau Link](https://public.tableau.com/app/profile/marcos.p4585/viz/MyMusics/Painel1?publish=yes)] I do a final exploratory analysis of the data using Tableau. 
 
 ## Screenshot
+
+<p align="center">
+  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/images/menu.jpg" width="600" title="Screenshot">
+</p> 
+
+Interactive menu using python to load the music files.
+
 
 <p align="center">
   <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/print_gephi.jpg" width="600" title="Screenshot">
@@ -28,7 +37,7 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 Gephi graph image of my musical preferences.
 
 <p align="center">
-  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/tableau_print.jpg" width="600" title="Screenshot">
+  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/images/tableau_print.jpg" width="600" title="Screenshot">
 </p> 
 
 Tableau dashboard image of my musical preferences.
