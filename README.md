@@ -17,11 +17,11 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 
 4- I count the number of appearances of each genre. File: `genres_count.py`.
 
-5- [[Gephi PDF](https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/bands_graph_map.pdf)] I create a .csv file to be used in Gephi. In Gephi I generate a visual map of the bands I listen to and their respective genres, saved in a .pdf. File: `to_gephi.py`. 
+5- Running the menu correctly, you will get 3 .csv files. These datasets then can be used to further exploration.
 
+6- [[Gephi PDF](https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/bands_graph_map.pdf)] I create a .csv file to be used in Gephi. In Gephi I generate a visual map of the bands I listen to and their respective genres, saved in a .pdf. File: `to_gephi.py`. 
 
-
-6- [[Tableau Link](https://public.tableau.com/app/profile/marcos.p4585/viz/MyMusics/Painel1?publish=yes)] I do a final exploratory analysis of the data using Tableau. 
+7- [[Tableau Link](https://public.tableau.com/app/profile/marcos.p4585/viz/MyMusics/Painel1?publish=yes)] I do a final exploratory analysis of the data using Tableau. 
 
 ## Screenshot
 
