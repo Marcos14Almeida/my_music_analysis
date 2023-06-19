@@ -24,7 +24,7 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 ## Screenshot
 
 <p align="center">
-  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/images/menu.jpg" width="600" title="Screenshot">
+  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/images/menu.jpg" width="300" title="Screenshot">
 </p> 
 
 Interactive menu using python to load the music files.
