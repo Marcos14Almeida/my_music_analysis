@@ -19,7 +19,7 @@ def top_10bands(df):
 
 
 # =============================================================================
-def generate_music_dataset(music_folder_path, save_df_path):
+def generate_music_dataset(music_folder_path, save_df_path, api_key):
     print()
     print("Generating Music Dataset...")
     print()
@@ -39,7 +39,7 @@ def generate_music_dataset(music_folder_path, save_df_path):
     # Get genres for each band
     print()
     print("Getting Genres for each band from Last.fm API")
-    df = fill_band_df(bands_dict, bands_name_list)
+    df = fill_band_df(api_key, bands_dict, bands_name_list)
 
     print("\nFinal Dataframe:")
     print(df)

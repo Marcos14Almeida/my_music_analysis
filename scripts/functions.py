@@ -45,9 +45,7 @@ def get_band_names(song_names):
     return bands
 
 
-def get_band_genres(band_name):
-
-    api_key = "2b705394dcc816bc0773dc767d53ed29"  # Replace with your Last.fm API key
+def get_band_genres(api_key, band_name):
 
     url = f"http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist={band_name}&api_key={api_key}&format=json"
 
@@ -84,13 +82,13 @@ def rename_system_files():
                 # os.rename(os.path.join(root, filename), os.path.join(root, new_filename))
 
 
-def fill_band_df(bands_dict, bands_name_list):
+def fill_band_df(api_key, bands_dict, bands_name_list):
     max_columns = 0
     i = 1
     for band_name in bands_name_list:
         print(f"band {i}/{len(bands_name_list)}")
         i += 1
-        genres = get_band_genres(band_name)
+        genres = get_band_genres(api_key, band_name)
         bands_dict[band_name]["genres"] = genres
         if len(genres) > max_columns:
             max_columns = len(genres)

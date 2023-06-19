@@ -7,6 +7,8 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 
 ## How to use it
 
+0- Get your Last.fm key. Place your key in the variable `api_key`. File: `main.py`. 
+
 1- I select all my .mp3 files and list all the songs I have. File: `Generate_music_dataset.py`.
 
 2- Filter the bands from the names of the songs. File: `Generate_music_dataset.py`.

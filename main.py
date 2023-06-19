@@ -1,12 +1,26 @@
+
+# =============================================================================
+# ================================= Libraries =================================
+# =============================================================================
+
 import tkinter as tk
 from tkinter import filedialog
 from genres_count import analyse_genre
 from generate_music_dataset import generate_music_dataset
 from to_gephi import to_gephi
 
+# ====================================================================
+
+# Preferences
+
+api_key = ""  # Replace with your Last.fm API key
 music_folder_path = "C:/Users/marco/Musics_all"
 save_df_path = "C:/Users/marco/OneDrive/Documentos/python/my_music_analysis/datasets"
 
+
+# =============================================================================
+#                                     Main
+# =============================================================================
 
 def get_music_folder():
 
@@ -33,7 +47,7 @@ def close_window():
 
 
 def button1():
-    generate_music_dataset(music_folder_path, save_df_path)
+    generate_music_dataset(music_folder_path, save_df_path, api_key)
 
 
 def button2():
