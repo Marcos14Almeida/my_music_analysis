@@ -22,5 +22,5 @@ Analysis of my songs filtering the data using Python. Obtaining genres from the 
 ## Screenshot
 
 <p align="center">
-  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/print_gephi.jpg" width="200" title="Screenshot">
+  <img src="https://github.com/Marcos14Almeida/my_music_analysis/blob/main/gephi/print_gephi.jpg" width="400" title="Screenshot">
 </p> 
