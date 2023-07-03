@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Analysis of my songs filtering the data using Python. Obtaining genres from the Last.fm API and vizualing the results using Gephi, Tableau.
+Analysis of my songs filtering the data using Python. Obtaining genres from the Last.fm API and visualization of the results using Gephi, Tableau.
 
 
 ## How to use it
